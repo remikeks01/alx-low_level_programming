@@ -1,6 +1,6 @@
 #include <stdlib.h>
 #include <time.h>
-#include <std.io>
+#include <stdio.h>
 
 /**
  * main - Prints the last digit of a random number
@@ -28,4 +28,3 @@ int main(void)
 	}
 	return (0);
 }
-
