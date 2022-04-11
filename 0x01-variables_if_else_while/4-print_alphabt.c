@@ -2,8 +2,7 @@
 
 /**
  * prints all the alphabets in lowercase
- * flooweed by a new line
- * excluding q and e
+ * followed by a new line
  *
  * Return: Always 0 (Success)
  */
