@@ -32,6 +32,6 @@ int main(void)
 		}
 		e++;
 	}
-	putchar('\n');l
+	putchar('\n');
 	return (0);
 }
