@@ -4,24 +4,20 @@
  * @s: pointer to the string
  * Return: void
  */
-
 void rev_string(char *s)
 {
-	int len, i, half;
-	char temp;
+	int len, i;
+	char l;
 
-	for (len = 0; s[len] != '\0' len++)
-	;
-
-	i = 0;
-
-	half = len / 2;
-
-	while (half--)
+	len = 0;
+	while (*(s + len) != '\0')
+		len ++;
+	len--;
+	for (i = 0; i < len; i++)
 	{
-		temp = s[len - i - 1];
-		s[len - i - 1] = s[i];
-		s[i] = temp;
-		i++;
+		l = *(s + len);
+		*(s + len) = *(s + i);
+		*(s + i) = l;
+		len--;
 	}
 }
