@@ -4,18 +4,15 @@
  * @s: pointer to the string
  * Return: void
  */
-
 void print_rev(char *s)
 {
-	int i = 0;
+	int l;
 
-	while (s[i])
-		i++;
-
-	while (i--)
-	{
-		_putchar(s[i]);
-	}
-
+	l = 0;
+	while (*(s + l) != '\0')
+		l++;
+	l--;
+	for (; l >= 0; l--)
+		_putchar(*(s + l));
 	_putchar('\n');
 }
