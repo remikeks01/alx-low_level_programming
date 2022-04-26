@@ -5,7 +5,7 @@
  * @accept: input
  * Return: 0
  */
-char 8strpbrk(char *s, char *accept)
+char *_strpbrk(char *s, char *accept)
 {
 	int k;
 
