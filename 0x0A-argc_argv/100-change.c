@@ -6,7 +6,7 @@
  * @argv: gives value
  * Return: 0
  */
-int main(argc, char *argv[])
+int main(int argc, char *argv[])
 {
 	int cents, coins = 0;
 
